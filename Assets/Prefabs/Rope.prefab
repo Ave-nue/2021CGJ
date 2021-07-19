@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6599291408170260301
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6599291408170260299}
+  - component: {fileID: 6599291408170260298}
+  m_Layer: 8
+  m_Name: Rope
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6599291408170260299
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6599291408170260301}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 7.27, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6599291408170260298
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6599291408170260301}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8642b36338c6c54caeca9c873d9b67c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ropeRoot: {fileID: 0}
+  ropeNode: {fileID: 4598202434191646497, guid: 89107618949c60b4cb54e5ee056ed99b, type: 3}
+  locomotive: {fileID: 1082067157342330600, guid: dfa7de9bcfbea994d993db81400b2e16, type: 3}
+  nodeInterval: 0.3
+  spreadAudios:
+  - clip: {fileID: 8300000, guid: 98eb04e9ecb4c364faa05c7eb02b7dea, type: 3}
+    weight: 1
+    volume: 0.7
+  - clip: {fileID: 8300000, guid: bfd5dc0e37d122044b6b5ab374389691, type: 3}
+    weight: 1
+    volume: 0.7
+  - clip: {fileID: 8300000, guid: 0faa388cccb2e4a43a0e8855bc938bcd, type: 3}
+    weight: 1
+    volume: 0.7
+  foldAudios:
+  - clip: {fileID: 8300000, guid: 84552e861bb59e44488d084c3a239035, type: 3}
+    weight: 1
+    volume: 0.7
+  - clip: {fileID: 8300000, guid: 7a470ccb90c34904398c128f437888ec, type: 3}
+    weight: 1
+    volume: 0.7
+  hardAudios:
+  - clip: {fileID: 8300000, guid: ac0f3ed63f4756f4d817653f5b0afa7d, type: 3}
+    weight: 1
+    volume: 0.7
+  - clip: {fileID: 8300000, guid: d60f0106d90381f4c8f2d4fa4cdc05eb, type: 3}
+    weight: 1
+    volume: 0.7
+  - clip: {fileID: 8300000, guid: 350eca7d05cfa564ba0cbe418622b0de, type: 3}
+    weight: 1
+    volume: 0.7
+  softAudios:
+  - clip: {fileID: 8300000, guid: e476cc683b743984e96fa27bc839b2bc, type: 3}
+    weight: 1
+    volume: 0.7
+  - clip: {fileID: 8300000, guid: b387996d3e88af146b3ae1a7c1cfea62, type: 3}
+    weight: 10
+    volume: 0.7
